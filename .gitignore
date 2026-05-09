@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+cmd.exe
+evalux-server.exe
+
+# Test binary
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# Archives
+*.zip
+
+# Vendor (if not committed)
+# vendor/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Temporary / test files
+test.go
+tmp/
+
+# Build output
+bin/
